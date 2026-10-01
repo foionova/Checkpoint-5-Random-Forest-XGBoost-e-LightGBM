@@ -29,17 +29,17 @@ with col1:
     fixed_acidity = st.number_input('Fixed Acidity', value=7.4, format="%.2f")
     volatile_acidity = st.number_input('Volatile Acidity', value=0.70, format="%.3f")
     citric_acid = st.number_input('Citric Acid', value=0.00, format="%.2f")
-    residual_sugar = st.number_input('Residual Sugar', value=1.9, format="%.1f")
+    residual_sugar = st.number_input('Residual Sugar', value=1.9, format="%.1f", step=0.1)
     chlorides = st.number_input('Chlorides', value=0.076, format="%.3f")
 
 with col2:
     st.markdown("**Compostos e Outros**")
-    free_sulfur_dioxide = st.number_input('Free Sulfur Dioxide', value=11.0, format="%.1f")
-    total_sulfur_dioxide = st.number_input('Total Sulfur Dioxide', value=34.0, format="%.1f")
+    free_sulfur_dioxide = st.number_input('Free Sulfur Dioxide', value=11.0, format="%.1f", step=1.0)
+    total_sulfur_dioxide = st.number_input('Total Sulfur Dioxide', value=34.0, format="%.1f", step=1.0)
     density = st.number_input('Density', value=0.9978, format="%.4f")
     pH = st.number_input('pH', value=3.51, format="%.2f")
     sulphates = st.number_input('Sulphates', value=0.56, format="%.2f")
-    alcohol = st.number_input('Alcohol', value=9.4, format="%.1f")
+    alcohol = st.number_input('Alcohol', value=9.4, format="%.1f", step=0.1)
 
 st.divider()
 
