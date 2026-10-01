@@ -8,7 +8,7 @@ st.set_page_config(page_title="Dashboard de Vinhos", layout="centered")
 
 @st.cache_resource
 def load_model():
-    return joblib.load('modelo_vinhos_lgbm.pkl')
+    return joblib.load('Projeto_Vinhos/modelo_vinhos_lgbm.pkl')
 
 
 modelo = load_model()
