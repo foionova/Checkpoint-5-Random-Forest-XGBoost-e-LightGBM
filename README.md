@@ -22,7 +22,7 @@ O objetivo deste projeto é prever a qualidade sensorial de vinhos verdes tintos
 
 A base de dados utilizada é o **Wine Quality Dataset (Red)**, disponibilizado publicamente pelo *UCI Machine Learning Repository*.
 
-🔗 **Link para a base:** [UCI Repository - Wine Quality](https://archive.ics.uci.edu/dataset/186/wine+quality)
+**Link para a base:** [UCI Repository - Wine Quality](https://archive.ics.uci.edu/dataset/186/wine+quality)
 
 ##  Resumo dos Resultados
 
@@ -35,8 +35,17 @@ O **modelo vencedor foi o LightGBM**, otimizado via **Optuna (TPE Bayesiano)**, 
 
 ---
 
-##  Como instalar e executar localmente
+Links do Projeto (Deploy)
+Interface Online (Streamlit): https://checkpoint-5-random-forest-xgboost-e-lightgbm-bhinuwx2r8f68tgh.streamlit.app/
+Repositório (GitHub): https://github.com/foionova/Checkpoint-5-Random-Forest-XGBoost-e-LightGBM
 
-Clone este repositório:
-```bash
-git clone [https://github.com/foionova/Checkpoint-5-Random-Forest-XGBoost-e-LightGBM](https://github.com/foionova/Checkpoint-5-Random-Forest-XGBoost-e-LightGBM)
+---
+
+## Instruções de Instalação e Execução (Reprodução Local)
+
+1. Clone este repositório em sua máquina local.
+2. Certifique-se de ter o Python instalado e instale as dependências executando:
+   `pip install -r requirements.txt`
+3. O modelo final já está treinado e salvo como `modelo_vinhos_lgbm.pkl`.
+4. Para abrir a interface web localmente, execute o comando no terminal:
+   `streamlit run app.py`
