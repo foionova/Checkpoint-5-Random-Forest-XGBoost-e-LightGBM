@@ -2,10 +2,10 @@
 
 ##  Identificação do Grupo
 Rafael Felix Souza - RM: 565855
-Pedro Henrique Sartorelli Ferreira - RM: 563281
-Nathália dos Santos Cordeiro - RM: 563072
-Bruno Bagattini Fernandes - RM: 562863
-Matheus Brasil Borges Sevilha Angelotti - RM: 561456
+*Pedro Henrique Sartorelli Ferreira - RM: 563281
+*Nathália dos Santos Cordeiro - RM: 563072
+*Bruno Bagattini Fernandes - RM: 562863
+*Matheus Brasil Borges Sevilha Angelotti - RM: 561456
 
 ##  Proposta do Trabalho
 O objetivo deste projeto é prever a qualidade sensorial de vinhos verdes tintos portugueses com base em 11 atributos físico-químicos (como acidez, pH, teor alcoólico, etc.). A qualidade é medida em uma escala contínua (0 a 10), caracterizando o problema como uma tarefa de **Regressão**. A aplicação supervisionada permite estimar a qualidade do vinho antes do engarrafamento, otimizando o controle de qualidade industrial.
