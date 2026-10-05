@@ -37,6 +37,7 @@ O **modelo vencedor foi o LightGBM**, otimizado via **Optuna (TPE Bayesiano)**, 
 
 Links do Projeto (Deploy)
 Interface Online (Streamlit): https://checkpoint-5-random-forest-xgboost-e-lightgbm-bhinuwx2r8f68tgh.streamlit.app/
+
 Repositório (GitHub): https://github.com/foionova/Checkpoint-5-Random-Forest-XGBoost-e-LightGBM
 
 ---
